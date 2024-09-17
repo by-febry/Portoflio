@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29 url('real.png') no-repeat center center fixed; /* No-repeat and fixed background */
+    background-size: cover; 
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo:hover {
+    color: #00abf0;
+    text-shadow: 0 0 10px #00abf0; /* Glowing effect */
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #00abf0;
+    text-shadow: 0 0 5px #00abf0; /* Glowing effect */
+}
+
+section#education {
+    padding: 100px 10%;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #00abf0;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.education-item {
+    background: rgba(0, 171, 240, 0.1); 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 4px solid #00abf0;
+    border-right: 4px solid #00abf0;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #ededed;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+p strong {
+    color: #00abf0;
+}
+
+.home-sci {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-sci a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #00abf0;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #00abf0;
+    text-decoration: none;
+}
+
+.home-sci a:hover {
+    background-color: #00abf0;
+    color: #fff;
+    border-color: #00abf0;
+}
