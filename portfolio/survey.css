@@ -1,0 +1,71 @@
+body {
+    background-color: rgba(251, 255, 6, 0.171);
+    margin: 5;
+    font-family: Arial;
+    display: fixed ;
+    flex-direction: column;
+    align-items: flex;
+    padding: 2rem;
+
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+form{
+background-color: bisque;
+}
+
+footer{
+    background-color: bisque;  
+}
+
+fieldset{
+    width: flex ;
+}
+
+button {
+   
+    background-color: #2afc00; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 50px;
+    font-size: 16px;
+    cursor: pointer; 
+    
+  }
+.submit-button:hover {
+    background-color: #0079fa;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+
+input[type="text"] {
+    font-size: 16px; 
+    padding: 10px;  
+    width: 100%;     
+    box-sizing: border-box; 
+}
+
+footer {
+    background-color: #f1f1f1; /* Light grey background */
+    color: #333; /* Dark grey text */
+    text-align: center; /* Center-align text */
+    padding: 1rem; /* Padding using relative units */
+    font-size: 1rem; /* Font size using relative units */
+    border-top: 1px solid #ddd; /* Light grey border at the top */
+    position: flex; /* Ensure footer behaves responsively */
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  
+  

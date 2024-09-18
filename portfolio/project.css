@@ -1,0 +1,127 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29 url('real.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ededed;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.logo:hover {
+    color: #00abf0;
+    text-shadow: 0 0 10px #00abf0; /* Glowing effect */
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: #00abf0;
+    text-shadow: 0 0 5px #00abf0; /* Glowing effect */
+}
+
+/* Portfolio Section */
+#Project {
+    padding: 100px 10%;
+    text-align: left;
+}
+
+.Portfolio-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.Portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Form Section */
+#surveyFormSection {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin-top: 100px;
+    border-radius: 10px;
+    color: #ededed;
+}
+
+form fieldset {
+    margin-bottom: 15px;
+    border: none;
+}
+
+form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+form input[type="radio"], form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.container button {
+    background-color: #00abf0;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #007bb5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+}
